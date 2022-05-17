@@ -2654,6 +2654,7 @@ input[type="radio"]+label:before {
 }
 
 .wrapper.style1 .icon.major:before {
+	/* color: #5e42a6; */
 	color: #5e42a6;
 }
 
@@ -4030,4 +4031,128 @@ body.is-preload #sidebar nav ul li {
 		background-attachment: scroll;
 	}
 
+}
+
+
+/*----------------------------------------------*/
+/*------------------MI CODIGO-------------------*/
+/*----------------------------------------------*/
+
+/*-----------------INTRO-------------------*/
+.span_inner {
+	color: #32cd32;
+}
+
+/*----------------ONE----------------*/
+.spotlights section {
+	height: 200px;
+	padding: 10px;
+}
+
+.spotlights_img {
+	width: 900px;
+}
+
+.spotlights_img img {
+	width: 100%;
+}
+
+/*------------------THREE------------------*/
+.container-contact {
+	text-align: center;
+	align-items: center;
+	padding-bottom: 30px;
+}
+
+.container-contact ul {
+	padding: 0;
+	margin: 0;
+}
+
+.container-contact li {
+	width: 370px;
+	height: auto;
+	display: inline-block;
+	padding: 0;
+	margin: 30px;
+}
+
+.container-contact img {
+	width: 80px;
+}
+
+.container-contact h4,
+.container-contact p {
+	display: inline;
+}
+
+
+
+
+@media screen and (max-width: 980px) {
+
+	/*--------SPOTLIGHTS---------*/
+	.spotlights section {
+		height: auto;
+		display: flex;
+	}
+
+	.spotlights_img {
+		width: auto;
+		display: inline-block;
+	}
+
+	.spotlights_img img {
+		width: 100%;
+	}
+
+	.spotlights>section>.content {
+		padding: 0 20px 0 40px;
+	}
+
+	/*----------CONTACT----------*/
+	.container-contact img {
+		width: 50px;
+	}
+
+	.container-contact li {
+		width: 270px;
+	}
+}
+
+
+@media screen and (max-width: 480px) {
+
+	/*--------SPOTLIGHTS---------*/
+	.spotlights section {
+		height: auto;
+		padding: 10px;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.spotlights_img {
+		width: auto;
+	}
+
+	.spotlights_img img {
+		width: 100%;
+	}
+
+	.spotlights_description {
+		/* position: static; */
+		margin-bottom: 40px;
+	}
+
+	/*--------CONTACT-------*/
+
+	.container-contact li {
+		width: 100%;
+		margin: 20px auto;
+	}
+
+	.container-contact li div {
+		width: auto;
+		margin: auto;
+	}
 }
